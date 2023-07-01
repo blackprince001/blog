@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Ubuntu:wght@300&display=swap');
 
 /** Reset some basic elements */
 body,
@@ -27,7 +27,7 @@ figure {
 
 /** Basic styling */
 body {
-    font: 400 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font: 400 15px/1.5 "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: rgb(236,236,233);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -270,7 +270,7 @@ table td {
 }
 
 .site-nav .page-link {
-    color: #111;
+    color: #2a7ae2;
     line-height: 1.5;
 }
 
@@ -283,8 +283,8 @@ table td {
         position: absolute;
         top: 9px;
         right: 15px;
-        background-color: #fdfdfd;
-        border: 1px solid #e8e8e8;
+        /* background-color: #fdfdfd; */
+        /* border: 1px solid #e8e8e8; */
         border-radius: 5px;
         text-align: right;
     }
@@ -487,10 +487,10 @@ table td {
 .highlight {
     background: #ffffff00;
 }
-
+/* 
 .highlighter-rouge .highlight {
     /* background: rgb(7, 46, 82); */
-}
+
 
 .highlight .c {
     color: #998;
