@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 
 /** Reset some basic elements */
 body,
@@ -21,11 +21,14 @@ figure {
     padding: 0;
 }
 
+* {
+    background-color: #242526;
+}
+
 /** Basic styling */
 body {
     font: 400 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #242526;
-    background-color: white;
+    color: rgb(236,236,233);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -234,7 +237,7 @@ table td {
 /** Site header */
 .site-header {
     border-top: 5px solid #424242;
-    border-bottom: 1px solid #e8e8e8;
+    /* border-bottom: 1px solid #e8e8e8; */
     min-height: 55.95px;
     position: relative;
 }
@@ -250,7 +253,7 @@ table td {
 
 .site-title,
 .site-title:visited {
-    color: #424242;
+    color: rgba(0, 223, 104, 0.589);
 }
 
 .site-nav {
@@ -332,7 +335,7 @@ table td {
 
 /** Site footer */
 .site-footer {
-    border-top: 1px solid #e8e8e8;
+    /* border-top: 1px solid #e8e8e8; */
     padding: 30px 0;
 }
 
@@ -482,11 +485,11 @@ table td {
 
 /** Syntax highlighting styles */
 .highlight {
-    background: #fff;
+    background: #ffffff00;
 }
 
 .highlighter-rouge .highlight {
-    background: rgb(7, 46, 82);
+    /* background: rgb(7, 46, 82); */
 }
 
 .highlight .c {
