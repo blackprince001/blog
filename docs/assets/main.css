@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/apple-garamond');
 
 /** Reset some basic elements */
 body,
@@ -22,13 +23,14 @@ figure {
 }
 
 * {
-    background-color: #242526;
+    background-color: rgb(236,236,233);
 }
 
 /** Basic styling */
 body {
-    font: 400 15px/1.5 "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: rgb(236,236,233);
+    font: 400 22px/1.5 "Apple Garamond", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* color: rgb(236,236,233); */
+    color: #242526;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -54,7 +56,7 @@ ol,
 dl,
 figure,
 .highlight {
-    color: rgb(0,223,104);
+    color: #242526;
     margin-bottom: 15px;
 }
 
@@ -100,7 +102,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Martian Mono";
+    font-family: "Apple Garamond";
     font-weight: 400;
 }
 
@@ -127,6 +129,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.username {
+    background-color: #00000000;
+}
+
 /** Blockquotes */
 blockquote {
     color: #828282;
@@ -144,13 +150,14 @@ blockquote> :last-child {
 /** Code formatting */
 pre,
 code {
-    color: rgba(0, 223, 104, 0.589);
-    font-size: 12px;
+    color: rgb(67, 202, 164);
+    font-size: 14px;
     border-radius: 3px;
 }
 
 code {
     padding: 1px 5px;
+    background-color: #00000000;
 }
 
 pre {
@@ -424,7 +431,8 @@ table td {
 
 .post-meta {
     font-size: 14px;
-    color: #828282;
+    color: rgb(0,223,104);
+    background-color: #00000000;
 }
 
 .post-link {
@@ -438,7 +446,7 @@ table td {
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 32px;
     letter-spacing: -1px;
     line-height: 1;
 }
@@ -484,12 +492,17 @@ table td {
 }
 
 /** Syntax highlighting styles */
-.highlight {
-    background: #ffffff00;
+span {
+    background: rgb(7, 46, 82);
 }
-/* 
+
+.highlight {
+    background: rgb(255,220,80);
+}
+
 .highlighter-rouge .highlight {
-    /* background: rgb(7, 46, 82); */
+    background: rgb(7, 46, 82);
+}
 
 
 .highlight .c {
